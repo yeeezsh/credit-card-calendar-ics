@@ -1,0 +1,17 @@
+{
+  "name": "credit-card-calendar-ics",
+  "version": "0.0.1",
+  "main": "app.ts",
+  "author": "KT",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node app.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "ics": "^2.35.0"
+  }
+}
