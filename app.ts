@@ -96,7 +96,7 @@ const createEventDate = (cardDates: CardDate[], card: Card) => {
       dayjs()
         .month(card.expired.month)
         .year(card.expired.year)
-        .format("YYYYMMDDT170000Z") +
+        .format("YYYYMMDDT000000Z") +
       ";",
   } as EventAttributes;
   const dueEvents = cardDates
